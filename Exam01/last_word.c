@@ -8,7 +8,7 @@ bool	is_space(char c)
 
 void	write_last_word(char *str)
 {
-	int	index;
+	int		index;
 	bool	in_word;
 	char	*last_word;
 

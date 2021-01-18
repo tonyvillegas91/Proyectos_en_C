@@ -1,6 +1,5 @@
-#include <stdlib.h>
 
-int     *ft_range(int start, int end)
+int	*ft_range(int start, int end)
 {
 	int	index;
 	int	bound;

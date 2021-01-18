@@ -23,7 +23,7 @@ char	add_13(char c)
 	ch = c + 13;
 	if (ch > max)
 		ch -= 26;
-	return ch;
+	return (ch);
 }
 
 void	rot13(char *str)

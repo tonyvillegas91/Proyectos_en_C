@@ -33,7 +33,7 @@ char	*str_copy(char *src, char *dest, int size)
 char	*find_next_word(char *str, int *offset, int *length)
 {
 	int		index;
-	char	*curr_word;;
+	char	*curr_word;
 
 	index = *offset;
 	while (str[index])
@@ -48,7 +48,7 @@ char	*find_next_word(char *str, int *offset, int *length)
 				*length += 1;
 				index++;
 			}
-			return curr_word;
+			return (curr_word);
 		}
 		*offset += 1;
 		index++;

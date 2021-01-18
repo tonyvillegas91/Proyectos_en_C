@@ -28,7 +28,7 @@ char	*ft_strndup(char *str, unsigned int n)
 {
 	unsigned int	index;
 	unsigned int	length;
-	char		*dup;
+	char			*dup;
 
 	length = 0;
 	while (str[length])
@@ -47,7 +47,7 @@ char	*ft_strndup(char *str, unsigned int n)
 	return (dup);
 }
 
-char    **ft_split(char *str)
+char	**ft_split(char *str)
 {
 	int		index;
 	int		word_count;

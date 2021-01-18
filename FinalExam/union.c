@@ -36,7 +36,7 @@ void	ft_union_do_str(bool already[255], char *str)
 
 void	ft_union(char *str1, char *str2)
 {
-	int	index;
+	int		index;
 	bool	already[255];
 
 	index = 0;

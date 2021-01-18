@@ -7,7 +7,7 @@ void	ft_write_number(int number)
 	write(1, &"0123456789"[number % 10], 1);
 }
 
-int	main(void)
+int		main(void)
 {
 	int	number;
 

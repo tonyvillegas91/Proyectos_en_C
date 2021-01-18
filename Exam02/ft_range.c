@@ -12,9 +12,9 @@ void	ft_swap(int *a, int *b)
 
 int		*ft_range(int start, int end)
 {
-	int	index;
-	int	bound;
-	int	*array;
+	int		index;
+	int		bound;
+	int		*array;
 	bool	inversed;
 
 	if ((inversed = start > end))
